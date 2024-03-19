@@ -1,0 +1,47 @@
+{
+  "name": "e-comm-platform",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon index.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "pretty": "prettier --write ."
+  },
+  "dependencies": {
+    "axios": "^0.21.4",
+    "bcrypt": "^5.1.1",
+    "bluebird": "^3.7.2",
+    "bytenode": "^1.1.7",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-flash": "^0.0.2",
+    "express-session": "^1.18.0",
+    "fecha": "^4.2.1",
+    "https": "^1.0.0",
+    "joi": "^17.3.0",
+    "moment-timezone": "^0.5.32",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.2.1",
+    "morgan": "~1.9.0",
+    "mssql": "^6.3.1",
+    "oracledb": "^5.1.0",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
+    "redis": "^3.1.2",
+    "swagger-ui-express": "^4.3.0",
+    "uuid": "^8.3.2",
+    "winston": "^3.3.3",
+    "winston-daily-rotate-file": "^4.5.2",
+    "xml-js": "^1.6.11"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.15.0",
+    "eslint-config-prettier": "^7.0.0",
+    "nodemon": "^3.1.0",
+    "prettier": "^2.2.1",
+    "sonarqube-scanner": "^2.8.1"
+  }
+}
